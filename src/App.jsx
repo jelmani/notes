@@ -54,7 +54,7 @@ const notesToShow = showAll
 
   return (
     <div>
-      <h1>Notes</h1>
+      <h1>Notes App</h1>
       <div>
         <button onClick={() => setShowAll(!showAll)}>
           show {showAll ? 'important' : 'all'}
